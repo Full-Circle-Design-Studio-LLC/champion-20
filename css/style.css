@@ -56,7 +56,14 @@ width: 30%;
   width: 100%;
 }
 .logo-container img{
-width: 16em;
+
+margin: 0 auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+max-width: 16em;
 margin-top: 1.5em;
 }
 .left-image{
@@ -170,18 +177,7 @@ a:hover{
 }
 
 
-.logo{
-  display:block;
-  height: 80%;
-  max-width: 10.4em;
-  width: auto;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 11.25%;
-  padding: 0;
 
-
-}
 
 
 
