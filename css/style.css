@@ -16,7 +16,7 @@ body{
 header{
   background-color: #050707;
   overflow: hidden;
-max-height: 18em;
+max-height: 16em;
   position: relative;
 }
 
@@ -35,7 +35,9 @@ header h3{
   font-weight: bold;
 }
 
-
+.nav-item{
+  width: 100% !important;
+}
 
 .logo-container{
 width: 25%;
@@ -49,7 +51,7 @@ width: 25%;
 }
 
 .logo-container img{
-  max-height: 14em;
+  max-height: 12em;
 margin-top: 2em;
 }
 .left-image{
@@ -361,9 +363,13 @@ z-index: -2;
 }
 
 
-.aside{
-
+aside ul{
+list-style: none;
+font-family: raleway;
 }
+ aside ul:nth-child(1){
+     margin-top: 4em;
+ }
 
 .gallery h2{
   font-size: 2em;
