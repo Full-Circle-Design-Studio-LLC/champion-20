@@ -16,7 +16,9 @@ body{
 header{
   background-color: #050707;
   overflow: hidden;
-max-height: 16em;
+  min-height: 12em;
+max-height: 18em;
+
   position: relative;
 }
 
@@ -40,7 +42,7 @@ header h3{
 }
 
 .logo-container{
-width: 25%;
+width: 30%;
   display: block;
   margin: auto;
   height: 100%;
@@ -50,9 +52,12 @@ width: 25%;
 
 }
 
+.logo-container a{
+  width: 100%;
+}
 .logo-container img{
-  max-height: 12em;
-margin-top: 2em;
+width: 16em;
+margin-top: 1.5em;
 }
 .left-image{
 width: 30%;
@@ -217,7 +222,7 @@ font-weight: bold;
 .banner{
   padding: 0;
   overflow: hidden;
-  height: 12em;
+
   position: relative;
   border-top: 2px solid white;
   background-color: black;
