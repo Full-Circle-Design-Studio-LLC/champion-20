@@ -154,6 +154,16 @@ footer ul{
     margin-bottom: 2.5em;
 }
 
+footer a{
+  opacity: 1;
+  transition: .5s ease;
+}
+
+footer a:hover{
+  opacity: .5;
+  transition: .5s ease;
+}
+
 .article-container{
   padding: 0 .25em .25em .25em;
 }
@@ -439,6 +449,22 @@ padding: 0 .25em .25em .25em;
   padding: 0;
 }
 
+.contact{
+  padding-top: 2em;
+}
+
+
+/* Store ***********************/
+
+.main-store-container{
+  padding: .25em;
+}
+.main-store{
+  background-color: white;
+
+}
+
+/*******************************/
 
 @media (min-width: 550px){
   .banner h1{
@@ -520,6 +546,20 @@ margin-top: .25em;
     #airflyte-awards{
       height: 45.5em!important;
     }
+
+    .text-wrap-2{
+      padding: 0!important;
+    }
+
+    .text-wrap-2 p{
+      padding: 0!important;
+    }
+
+    .text-wrap-2 h1{
+      padding: 0!important;
+    }
+
+
     /***************************/
 
 
@@ -530,6 +570,8 @@ height: 27em;
     .contact-form{
       height: 27em;
     }
+
+
   }
 
 
@@ -662,6 +704,10 @@ height: 27em;
   padding: 0;
 }
 
+.contact-list li{
+  margin-top: 1em;
+}
+
 textarea{
   margin-bottom: 1em;
 }
@@ -692,14 +738,18 @@ padding: .5em 0em .5em .5em;
 
 
 .submit{
-  background-color: #2B2B2B;
+  background-color: black;
   color: white;
   border: none;
   padding: .75em;
+  border-radius: .15em;
+  opacity: 1;
+  transition: .5s ease;
 }
 
 .submit:hover{
   opacity: .75;
+  transition: .5s ease;
 }
 
 form{
