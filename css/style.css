@@ -145,6 +145,10 @@ footer ul{
     margin-bottom: 2.5em;
 }
 
+.article-container{
+  padding: 0em;
+}
+
 .social-media img{
 width: 2em;
 height: auto;
@@ -188,6 +192,8 @@ nav h4{
 nav li{
     font-family: 'Raleway', sans-serif;
 }
+
+
 
 #navbarNav{
   background-color: black;
@@ -411,6 +417,25 @@ padding: 0;
     font-size: 3.2em;
     padding-top: .75em;
   }
+
+  .article-container{
+    padding: .5em;
+  }
+  .airflyte-container{
+  padding: .5em .5em .5em 0em;
+  margin-bottom: 0;
+  }
+  .map-container{
+    padding: 0 .5em .5em .5em;
+    margin-top: 0;
+  }
+  iframe{
+    padding: 0 .5em .5em .5em!important;
+  }
+
+  /********************************************************/
+
+
 }
 
 
@@ -423,6 +448,16 @@ padding: 0;
   nav li{
     width: 20%;
   }
+}
+
+@media (min-width: 992px){
+  .airflyte{
+    height: 40em !important;
+  }
+  article{
+    height: 40em!important;
+  }
+
 }
 
 
