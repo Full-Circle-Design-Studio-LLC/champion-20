@@ -84,6 +84,9 @@ margin-top: -5%;
 }
 .gallery{
   border-radius: .15em;
+  padding: .25em;
+  margin-top: .25em;
+
 }
 
 
@@ -149,7 +152,7 @@ footer ul{
 }
 
 .article-container{
-  padding: 0em;
+  padding: 0 .25em .25em .25em;
 }
 
 .social-media img{
@@ -317,11 +320,17 @@ z-index: -2;
 
 
 /* Awards | Trophies */
+
+.awards-subnav-container{
+      padding:.25em;
+}
+
 .awards-subnav{
   float: left;
   background-color: white!important;
   border-radius: .15em;
   text-align: center;
+
 }
 
 .awards-subnav ul{
@@ -418,7 +427,7 @@ margin-bottom: 0;
   padding: 0;
 }
 .airflyte-container{
-padding: 0;
+padding: 0 .25em .25em .25em;
 }
 .map-container{
   padding: 0;
@@ -443,7 +452,7 @@ padding: 0;
     margin-top: 0;
   }
   .gallery-container{
-margin-top: .5em;
+margin-top: .25em;
 
   }
   iframe{
