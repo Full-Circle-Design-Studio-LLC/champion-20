@@ -484,14 +484,13 @@ margin-top: .25em;
     font-size: 3.2em;
     padding-top: 1.25em;
   }
-
-
-  nav li{
-    width: 20%;
-  }
 }
 
 @media (min-width: 992px){
+  nav li{
+    width: 20%;
+  }
+
   .airflyte{
     height: 40em !important;
   }
