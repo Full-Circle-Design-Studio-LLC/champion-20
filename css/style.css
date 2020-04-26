@@ -194,6 +194,18 @@ nav h4{
 
 nav li{
     font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+}
+
+nav a{
+  transition: .5s ease;
+
+}
+
+nav a:hover{
+  color: white!important;
+  opacity: 1;
+  transition: .5s ease;
 }
 
 
@@ -347,27 +359,20 @@ margin-bottom: 0;
   color: black;
 }
 
+.text-wrap{
+  margin-top: 3em;
+}
 
 .gallery{
   background-color: white;
 }
 
-
-
-
-
 #active{
   opacity: 1;
 }
 
-
 #active a{
   color: black;
-}
-
-
-.aside{
-
 }
 
 .gallery h2{
@@ -389,6 +394,7 @@ margin-bottom: 0;
   border-top: 10px solid maroon;
   border-bottom: 10px solid maroon;
   margin: 0;
+  border-radius: .15em;
 }
 
 .airflyte h3{
@@ -614,6 +620,10 @@ margin-top: .5em;
     height: 45.5em!important;
   }
   /***************************/
+
+  .text-wrap{
+    margin-top: 2.5em;
+  }
 }
 
 .contact-list{
