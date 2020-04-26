@@ -521,6 +521,15 @@ margin-top: .25em;
       height: 45.5em!important;
     }
     /***************************/
+
+
+    .aside-contact-container{
+height: 27em;
+    }
+
+    .contact-form{
+      height: 27em;
+    }
   }
 
 
@@ -658,8 +667,29 @@ textarea{
 }
 
 .contact-form{
-  background-color: #E0E0E0;
+  background-color: white;
+  border-radius: .15em;
 }
+
+
+
+
+
+.main-contact{
+padding: .5em;
+}
+
+.aside-contact{
+padding: .5em 0em .5em .5em;
+}
+
+.aside-contact-container{
+  background-color: white;
+  border-radius: .15em;
+
+}
+
+
 
 .submit{
   background-color: #2B2B2B;
