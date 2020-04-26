@@ -37,7 +37,6 @@ header h3{
 
 
 
-
 .logo-container{
 width: 25%;
   display: block;
@@ -81,8 +80,11 @@ margin-top: -5%;
   background-color: white;
   padding: 0;
   float: left;
+  border-radius: .15em;
 }
-
+.gallery{
+  border-radius: .15em;
+}
 
 
 h1{
@@ -306,7 +308,8 @@ z-index: -2;
 .awards-subnav{
   float: left;
   background-color: white!important;
-
+  border-radius: .15em;
+  text-align: center;
 }
 
 .awards-subnav ul{
@@ -325,12 +328,6 @@ margin-bottom: 0;
 .awards-subnav li:hover{
   opacity: 1;
   transition: .5s ease;
-}
-
-
-
-.awards-subnav{
-  text-align: center;
 }
 
 .awards-subnav p{
@@ -360,7 +357,6 @@ margin-bottom: 0;
 
 
 #active{
-  background: white;
   opacity: 1;
 }
 
