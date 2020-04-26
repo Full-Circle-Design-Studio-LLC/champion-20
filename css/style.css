@@ -77,12 +77,13 @@ margin-top: -5%;
   margin-bottom: 4em;
 }
 
-.main-awards{
+.article-awards{
   background-color: white;
   padding: 0;
   float: left;
-
 }
+
+
 
 h1{
   font-family: garamond;
@@ -305,7 +306,7 @@ z-index: -2;
 .awards-subnav{
   float: left;
   background-color: lightgrey;
-  margin-bottom: .5em;
+
 }
 
 .awards-subnav ul{
@@ -429,7 +430,7 @@ padding: 0;
     padding: .5em;
   }
   .airflyte-container{
-  padding: .5em .5em .5em .0em;
+  padding: 0em .5em .5em .5em;
   margin-bottom: 0;
   }
   .map-container{
@@ -445,8 +446,16 @@ margin-top: .5em;
   }
 
   /********************************************************/
-
-
+.awards-subnav-container{
+      padding: .5em .5em 0 .5em;
+}
+  .awards-subnav{
+    float: left;
+    background-color: lightgrey;
+  }
+  #airflyte-awards{
+    height: 100%;
+  }
 }
 
 
@@ -455,6 +464,7 @@ margin-top: .5em;
     font-size: 3.2em;
     padding-top: 1.25em;
   }
+
 
   nav li{
     width: 20%;
@@ -465,12 +475,33 @@ margin-top: .5em;
   .airflyte{
     height: 40em !important;
   }
+
+  .airflyte-container{
+  padding: .5em .5em .5em 0em;
+  margin-bottom: 0;
+  }
+  
   .article-home{
     height: 40em!important;
   }
 
   .airflyte-text{
     padding: 0!important;
+  }
+
+  /* AWARDS PAGES *****************/
+    .article-awards{
+      height: 20em !important;
+    }
+
+    .gallery{
+      height: 25em!important;
+    }
+
+    #airflyte-awards{
+      height: 45.5em!important;
+    }
+    /***************************/
   }
 
 
@@ -496,6 +527,8 @@ margin-top: .5em;
     font-weight: bold;
     font-size: 1.3em;
   }
+
+
 
 .article-home{
     height: 32em !important;
@@ -566,6 +599,23 @@ margin-top: .5em;
     float: left;
     position: relative;
   }
+
+
+
+
+/* AWARDS PAGES *****************/
+  .article-awards{
+    height: 20em !important;
+  }
+
+  .gallery{
+    height: 25em!important;
+  }
+
+  #airflyte-awards{
+    height: 45.5em!important;
+  }
+  /***************************/
 }
 
 .contact-list{
