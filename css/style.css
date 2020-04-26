@@ -10,15 +10,13 @@ font-family: raleway, sans-serif;
 }
 
 body{
-  background-color: #EFEFEF;
+  background-color: black;
 }
 
 header{
   background-color: #050707;
   overflow: hidden;
-  min-height: 12em;
 max-height: 18em;
-
   position: relative;
 }
 
@@ -37,12 +35,11 @@ header h3{
   font-weight: bold;
 }
 
-.nav-item{
-  width: 100% !important;
-}
+
+
 
 .logo-container{
-width: 30%;
+width: 25%;
   display: block;
   margin: auto;
   height: 100%;
@@ -52,19 +49,9 @@ width: 30%;
 
 }
 
-.logo-container a{
-  width: 100%;
-}
 .logo-container img{
-
-margin: 0 auto;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-max-width: 16em;
-margin-top: 1.5em;
+  max-height: 14em;
+margin-top: 2em;
 }
 .left-image{
 width: 30%;
@@ -78,16 +65,15 @@ margin-top: -5%;
 
 }
 
-.main-home{
+.article-home{
   background-color: white;
   float: left;
-  margin-top: .25em;
 }
-.main-home h2{
+.article-home h2{
   font-size: 1.75em;
   margin-top: 2em;
 }
-.main-home p{
+.article-home p{
   margin-bottom: 4em;
 }
 
@@ -119,12 +105,11 @@ padding: 0;
 }
 
 iframe{
-  height: 30vh;
-  width: 100vw;
-  float: left;
-  margin-top: .5em;
   border: none;
-  padding: 0;
+width: 100% !important;
+height: 20em;
+padding: 0!important;
+
 }
 
 button{
@@ -177,7 +162,18 @@ a:hover{
 }
 
 
+.logo{
+  display:block;
+  height: 80%;
+  max-width: 10.4em;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 11.25%;
+  padding: 0;
 
+
+}
 
 
 
@@ -199,14 +195,13 @@ nav li{
 .navbar{
 background-color: black;
 padding: 0;
-border-top: 2px solid white;
 }
 
 .navbar-collapse{
   background-color: #2b2b2b;
 z-index: 4;
 text-align: center;
-border-top: 1px solid white;
+
 }
 
 #active-nav{
@@ -217,7 +212,7 @@ font-weight: bold;
 .banner{
   padding: 0;
   overflow: hidden;
-
+  height: 12em;
   position: relative;
   border-top: 2px solid white;
   background-color: black;
@@ -363,13 +358,9 @@ z-index: -2;
 }
 
 
-aside ul{
-list-style: none;
-font-family: raleway;
+.aside{
+
 }
- aside ul:nth-child(1){
-     margin-top: 4em;
- }
 
 .gallery h2{
   font-size: 2em;
@@ -382,15 +373,16 @@ font-family: raleway;
 
 .airflyte{
   background-color: white;
+  padding: 1em;
   border-top: 10px solid maroon;
   border-bottom: 10px solid maroon;
+  margin: 0;
 }
 
 .airflyte h3{
   font-size: 2em;
   font-family: raleway, sans-serif;
   color: maroon;
-  margin-top: .8em;
 }
 
 .airflyte:hover{
@@ -400,6 +392,19 @@ font-family: raleway;
 .airflyte{
   color: black;
 }
+
+
+/* CONTAINERS******************************************/
+.main-container{
+  padding: 0;
+}
+.airflyte-container{
+padding: 0;
+}
+.map-container{
+  padding: 0;
+}
+
 
 @media (min-width: 550px){
   .banner h1{
@@ -423,6 +428,12 @@ font-family: raleway;
 
 @media (min-width: 1200px){
 
+  .navbar{
+  background-color: black;
+  padding: 0;
+  border-top: none!important;
+  }
+
   h1{
     font-family: 'Raleway', sans-serif !important;
     font-size: 2.5em;
@@ -433,6 +444,11 @@ font-family: raleway;
     font-family: garamond;
     font-weight: bold;
     font-size: 1.3em;
+  }
+
+article{
+    height: 35em;
+    margin-bottom: 0;
   }
 
   .banner{
@@ -460,8 +476,26 @@ font-family: raleway;
   z-index:-2;
   }
 
+  /* CONTAINERS ******************************************/
+  .article-container{
+    padding: .5em;
+  }
+  .airflyte-container{
+  padding: .5em .5em .5em 0em;
+  margin-bottom: 0;
+  }
+  .map-container{
+    padding: 0 .5em .5em .5em;
+    margin-top: 0;
+  }
+  iframe{
+    padding: 0 .5em .5em .5em!important;
+  }
+  /********************************************************/
 
-
+  .airflyte{
+    height: 35em;
+  }
 
   .jump-to-container{
     padding-left: 1em;
@@ -510,4 +544,26 @@ textarea{
 form{
 margin-top: 2em;
 margin-bottom: 2em;
+}
+
+@keyframes container-1 {
+from{ opacity: 0;}
+to{opacity: 1;}
+}
+
+.container-1{
+  animation-name: container-1;
+  animation-duration: 1s;
+
+}
+
+@keyframes container-2 {
+from{ opacity: 0;}
+to{opacity: 1;}
+}
+
+.container-2{
+  animation-name: container-1;
+  animation-duration: 1s;
+  animation-delay:.5s;
 }
