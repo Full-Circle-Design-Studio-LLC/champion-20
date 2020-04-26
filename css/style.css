@@ -89,6 +89,9 @@ margin-top: -5%;
 
 }
 
+article{
+  border-radius: .15em;
+}
 
 h1{
   font-family: garamond;
@@ -115,7 +118,7 @@ iframe{
 width: 100% !important;
 height: 20em;
 padding: 0!important;
-
+border-radius: .15em!important;
 }
 
 button{
@@ -496,7 +499,7 @@ margin-top: .25em;
   }
 
   .article-home{
-    height: 40em!important;
+    height: 40em;
   }
 
   .airflyte-text{
@@ -519,10 +522,14 @@ margin-top: .25em;
   }
 
 
-}
+
 
 
 @media (min-width: 1200px){
+  .article-home{
+    height: 32em;
+      margin-bottom: 0;
+    }
 
   .navbar{
   background-color: black;
@@ -544,10 +551,7 @@ margin-top: .25em;
 
 
 
-.article-home{
-    height: 32em !important;
-    margin-bottom: 0;
-  }
+
 
   .banner{
     height: 15em;
@@ -635,6 +639,12 @@ margin-top: .25em;
     margin-top: 2.5em;
   }
 }
+
+
+
+
+
+
 
 .contact-list{
   list-style: none;
