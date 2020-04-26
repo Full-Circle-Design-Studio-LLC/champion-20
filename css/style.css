@@ -304,7 +304,7 @@ z-index: -2;
 /* Awards | Trophies */
 .awards-subnav{
   float: left;
-  border-top: .3em solid white;
+  background-color: lightgrey;
 }
 
 .awards-subnav ul{
@@ -454,7 +454,7 @@ padding: 0;
   .airflyte{
     height: 40em !important;
   }
-  article{
+  .article-home{
     height: 40em!important;
   }
 
@@ -481,7 +481,7 @@ padding: 0;
     font-size: 1.3em;
   }
 
-article{
+.article-home{
     height: 32em !important;
     margin-bottom: 0;
   }
