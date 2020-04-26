@@ -305,24 +305,26 @@ z-index: -2;
 /* Awards | Trophies */
 .awards-subnav{
   float: left;
-  background-color: lightgrey;
+  background-color: white!important;
 
 }
 
 .awards-subnav ul{
   list-style: none;
+  margin-top: .5em;
+margin-bottom: 0;
 }
 
 .awards-subnav li{
   float: left;
-  padding-top: 1em;
-  padding-bottom: .75em;
-  opacity: .5;
+  opacity: .4;
+  margin-bottom: 0;
+  transition: .5s ease;
 }
 
 .awards-subnav li:hover{
   opacity: 1;
-  transition: .5s;
+  transition: .5s ease;
 }
 
 
@@ -480,7 +482,7 @@ margin-top: .5em;
   padding: .5em .5em .5em 0em;
   margin-bottom: 0;
   }
-  
+
   .article-home{
     height: 40em!important;
   }
