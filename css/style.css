@@ -428,7 +428,7 @@ padding: 0;
     padding: .5em;
   }
   .airflyte-container{
-  padding: .5em .5em .5em .5em;
+  padding: .5em .5em .5em .0em;
   margin-bottom: 0;
   }
   .map-container{
@@ -470,6 +470,7 @@ padding: 0;
   .airflyte-text{
     padding: 0!important;
   }
+
 
 }
 
