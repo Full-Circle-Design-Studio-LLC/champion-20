@@ -224,6 +224,25 @@ nav a:hover{
   transition: .5s ease;
 }
 
+.airflyte-container{
+  position: relative;
+  overflow: hidden;
+}
+.airflyte-hover{
+  opacity: 1;
+  background-color: maroon;
+  height: 1%;
+  position: absolute;
+  width: 100%;
+  transition: .5s ease;
+  bottom: 5em;
+  z-index: 20;
+}
+
+.airflyte-container:hover .airflyte-hover{
+  transform: scaleY(25);
+
+}
 
 
 #navbarNav{
