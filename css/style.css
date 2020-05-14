@@ -825,7 +825,7 @@ animation-duration: 1.5s;
 }
 
 .article-awards h1{
-margin-top: 2.5%;
+margin-top: 1%;
 }
 
 .airflyte-2{
@@ -834,6 +834,11 @@ margin-top: 2.5%;
 
 .gallery{
   height: 38.25vw!important;
+  padding: 0!important;
+}
+
+.gallery h2{
+  margin-top: 1.5em!important;
 }
 
 }
