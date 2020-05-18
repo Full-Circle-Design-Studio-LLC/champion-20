@@ -256,6 +256,24 @@ nav a:hover{
 
 }
 
+.airflyte-container a{
+transition: .5s ease;
+}
+
+.airflyte-container-2 a{
+transition: .5s ease;
+}
+
+.airflyte-container a:hover{
+  color: black;
+  opacity: .75;
+}
+
+.airflyte-container-2 a:hover{
+  color: black;
+  opacity: .75;
+}
+
 
 #navbarNav{
   background-color: black;
@@ -454,14 +472,15 @@ margin-bottom: 0;
 
 .airflyte-container-2{
   padding: 0;
-  margin-top: .5em;
-
+  margin-top: .25em;
 }
 
 .airflyte h3{
   font-size: 2em;
   font-family: raleway, sans-serif;
   color: maroon;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .airflyte:hover{
@@ -528,6 +547,9 @@ padding: 0 .25em .25em .25em;
   }
   #airflyte-awards{
     height: 100%;
+  }
+  .airflyte-container-2{
+    margin-top: .5em;
   }
 
   .text-wrap{
