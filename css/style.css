@@ -1,6 +1,9 @@
 h1{
-font-family: 'Raleway', sans-serif !important;
-text-transform: uppercase;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: .5em;
 }
 
 p{
@@ -82,6 +85,14 @@ margin-top: -5%;
   float: left;
   border-radius: .15em;
 }
+
+.article-statues{
+  background-color: white;
+  padding: 0;
+  float: left;
+  border-radius: .15em;
+}
+
 .gallery{
   border-radius: .15em;
   padding: .25em;
@@ -399,6 +410,9 @@ margin-bottom: 0;
 }
 
 
+.gallery img{
+  padding: .1em!important;
+}
 
 .gallery h2{
   font-size: 1.5em;
@@ -408,6 +422,8 @@ margin-bottom: 0;
   opacity: .75;
   transition: .5s;
 }
+
+
 
 .airflyte{
   background-color: white;
@@ -541,20 +557,23 @@ margin-top: .25em;
       height: 25em !important;
     }
 
+    .article-statues{
+      height: 30em !important;
+    }
+
     .gallery-container{
       padding-left: 0;
       padding-right: .5em;
 
+    }
+    #gallery{
+      height: 30em;
     }
 
 
     .gallery{
 
       padding: .5em!important;
-    }
-
-    .gallery img{
-      padding: .1em!important;
     }
 
     #airflyte-awards{
@@ -602,14 +621,6 @@ height: 27em;
   background-color: black;
   padding: 0;
   border-top: none!important;
-  }
-
-  h1{
-    font-family: 'Raleway', sans-serif !important;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: .5em;
   }
 
   h2{
@@ -685,8 +696,16 @@ height: 27em;
     height: 20em !important;
   }
 
+  .article-statues{
+    height: 25em !important;
+  }
+
   .gallery{
     height: 33.25em!important;
+  }
+
+  #gallery{
+    height: 25em!important;
   }
 
   #airflyte-awards{
@@ -824,7 +843,16 @@ animation-duration: 1.5s;
   position: relative;
 }
 
+.article-statues{
+  height: 25vw!important;
+  position: relative;
+}
+
 .article-awards h1{
+margin-top: 1%;
+}
+
+.article-statues h1{
 margin-top: 1%;
 }
 
@@ -837,6 +865,10 @@ margin-top: 1%;
   padding: 0!important;
 }
 
+#gallery{
+height: 25vw!important;
+}
+
 .gallery h2{
   margin-top: 1.5em!important;
 }
@@ -845,6 +877,9 @@ margin-top: 1%;
 
 @media (min-width: 1800px){
   .article-awards h1{
+  margin-top: 7%!important;
+  }
+  .article-statues h1{
   margin-top: 7%!important;
   }
 }
