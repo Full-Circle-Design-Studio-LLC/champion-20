@@ -94,11 +94,17 @@ margin-top: -5%;
 }
 
 .gallery{
-  border-radius: .15em;
-  padding: .25em;
-  margin-top: .25em;
 
 }
+.gallery-container{
+  padding-left: .25em;
+  padding-right: .25em;
+}
+.gallery-photo-container{
+  margin-bottom: 2em;
+}
+
+
 
 article{
   border-radius: .15em;
@@ -508,10 +514,6 @@ padding: 0 .25em .25em .25em;
     padding: 0 .5em .5em .5em;
     margin-top: 0;
   }
-  .gallery-container{
-margin-top: .25em;
-
-  }
   iframe{
     padding: 0 .5em .5em .5em!important;
   }
@@ -526,6 +528,17 @@ margin-top: .25em;
   }
   #airflyte-awards{
     height: 100%;
+  }
+
+  .text-wrap{
+    padding: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .gallery-container{
+    padding-left: .5em!important;
+    padding-right: .5em!important;
   }
 }
 
@@ -562,9 +575,7 @@ margin-top: .25em;
     }
 
     .gallery-container{
-      padding-left: 0;
-      padding-right: .5em;
-
+      padding: .5em .5em 0em 0!important;
     }
     #gallery{
       height: 30em;
