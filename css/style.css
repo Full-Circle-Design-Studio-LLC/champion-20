@@ -93,8 +93,8 @@ margin-top: -5%;
   border-radius: .15em;
 }
 
-.gallery{
-
+#gallery{
+border-radius: .15em;
 }
 .gallery-container{
   padding-left: .25em;
@@ -102,6 +102,9 @@ margin-top: -5%;
 }
 .gallery-photo-container{
   margin-bottom: 2em;
+}
+.gallery{
+  border-radius: .15em;
 }
 
 
