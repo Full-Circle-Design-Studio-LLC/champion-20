@@ -518,7 +518,10 @@ padding: 0 .25em .25em .25em;
 }
 .main-store{
   background-color: white;
+}
 
+.store-container{
+  margin-top: 2em;
 }
 
 /*******************************/
